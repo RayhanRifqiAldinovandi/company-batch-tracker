@@ -1,0 +1,431 @@
+C:\Users\Chrisnawati.yordanin\source\repos\backend\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Chrisnawati.yordanin\source\repos\backend\bin\Debug\net8.0\appsettings.json
+C:\Users\Chrisnawati.yordanin\source\repos\backend\bin\Debug\net8.0\backend.staticwebassets.runtime.json
+C:\Users\Chrisnawati.yordanin\source\repos\backend\bin\Debug\net8.0\backend.exe
+C:\Users\Chrisnawati.yordanin\source\repos\backend\bin\Debug\net8.0\backend.deps.json
+C:\Users\Chrisnawati.yordanin\source\repos\backend\bin\Debug\net8.0\backend.runtimeconfig.json
+C:\Users\Chrisnawati.yordanin\source\repos\backend\bin\Debug\net8.0\backend.dll
+C:\Users\Chrisnawati.yordanin\source\repos\backend\bin\Debug\net8.0\backend.pdb
+C:\Users\Chrisnawati.yordanin\source\repos\backend\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\Chrisnawati.yordanin\source\repos\backend\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\Chrisnawati.yordanin\source\repos\backend\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\Chrisnawati.yordanin\source\repos\backend\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Chrisnawati.yordanin\source\repos\backend\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\Chrisnawati.yordanin\source\repos\backend\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Chrisnawati.yordanin\source\repos\backend\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\Chrisnawati.yordanin\source\repos\backend\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Chrisnawati.yordanin\source\repos\backend\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\Chrisnawati.yordanin\source\repos\backend\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Chrisnawati.yordanin\source\repos\backend\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\Chrisnawati.yordanin\source\repos\backend\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\Chrisnawati.yordanin\source\repos\backend\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\Chrisnawati.yordanin\source\repos\backend\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Chrisnawati.yordanin\source\repos\backend\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\Chrisnawati.yordanin\source\repos\backend\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Chrisnawati.yordanin\source\repos\backend\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Chrisnawati.yordanin\source\repos\backend\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Chrisnawati.yordanin\source\repos\backend\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Chrisnawati.yordanin\source\repos\backend\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Chrisnawati.yordanin\source\repos\backend\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Chrisnawati.yordanin\source\repos\backend\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Chrisnawati.yordanin\source\repos\backend\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Chrisnawati.yordanin\source\repos\backend\obj\Debug\net8.0\backend.csproj.AssemblyReference.cache
+C:\Users\Chrisnawati.yordanin\source\repos\backend\obj\Debug\net8.0\backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chrisnawati.yordanin\source\repos\backend\obj\Debug\net8.0\backend.AssemblyInfoInputs.cache
+C:\Users\Chrisnawati.yordanin\source\repos\backend\obj\Debug\net8.0\backend.AssemblyInfo.cs
+C:\Users\Chrisnawati.yordanin\source\repos\backend\obj\Debug\net8.0\backend.csproj.CoreCompileInputs.cache
+C:\Users\Chrisnawati.yordanin\source\repos\backend\obj\Debug\net8.0\backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Chrisnawati.yordanin\source\repos\backend\obj\Debug\net8.0\backend.RazorAssemblyInfo.cache
+C:\Users\Chrisnawati.yordanin\source\repos\backend\obj\Debug\net8.0\backend.RazorAssemblyInfo.cs
+C:\Users\Chrisnawati.yordanin\source\repos\backend\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Chrisnawati.yordanin\source\repos\backend\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Chrisnawati.yordanin\source\repos\backend\obj\Debug\net8.0\staticwebassets\msbuild.backend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Chrisnawati.yordanin\source\repos\backend\obj\Debug\net8.0\staticwebassets\msbuild.build.backend.props
+C:\Users\Chrisnawati.yordanin\source\repos\backend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.backend.props
+C:\Users\Chrisnawati.yordanin\source\repos\backend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.backend.props
+C:\Users\Chrisnawati.yordanin\source\repos\backend\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Chrisnawati.yordanin\source\repos\backend\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Chrisnawati.yordanin\source\repos\backend\obj\Debug\net8.0\scopedcss\bundle\backend.styles.css
+C:\Users\Chrisnawati.yordanin\source\repos\backend\obj\Debug\net8.0\scopedcss\projectbundle\backend.bundle.scp.css
+C:\Users\Chrisnawati.yordanin\source\repos\backend\obj\Debug\net8.0\backend.csproj.CopyComplete
+C:\Users\Chrisnawati.yordanin\source\repos\backend\obj\Debug\net8.0\backend.dll
+C:\Users\Chrisnawati.yordanin\source\repos\backend\obj\Debug\net8.0\refint\backend.dll
+C:\Users\Chrisnawati.yordanin\source\repos\backend\obj\Debug\net8.0\backend.pdb
+C:\Users\Chrisnawati.yordanin\source\repos\backend\obj\Debug\net8.0\backend.genruntimeconfig.cache
+C:\Users\Chrisnawati.yordanin\source\repos\backend\obj\Debug\net8.0\ref\backend.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\bin\Debug\net8.0\appsettings.json
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\bin\Debug\net8.0\backend.staticwebassets.runtime.json
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\bin\Debug\net8.0\backend.exe
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\bin\Debug\net8.0\backend.deps.json
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\bin\Debug\net8.0\backend.runtimeconfig.json
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\bin\Debug\net8.0\backend.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\bin\Debug\net8.0\backend.pdb
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\obj\Debug\net8.0\backend.csproj.AssemblyReference.cache
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\obj\Debug\net8.0\backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\obj\Debug\net8.0\backend.AssemblyInfoInputs.cache
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\obj\Debug\net8.0\backend.AssemblyInfo.cs
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\obj\Debug\net8.0\backend.csproj.CoreCompileInputs.cache
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\obj\Debug\net8.0\backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\obj\Debug\net8.0\backend.RazorAssemblyInfo.cache
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\obj\Debug\net8.0\backend.RazorAssemblyInfo.cs
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\obj\Debug\net8.0\backend.sourcelink.json
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\obj\Debug\net8.0\staticwebassets\msbuild.backend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\obj\Debug\net8.0\staticwebassets\msbuild.build.backend.props
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.backend.props
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.backend.props
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\obj\Debug\net8.0\scopedcss\bundle\backend.styles.css
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\obj\Debug\net8.0\scopedcss\projectbundle\backend.bundle.scp.css
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\obj\Debug\net8.0\backend.csproj.CopyComplete
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\obj\Debug\net8.0\backend.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\obj\Debug\net8.0\refint\backend.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\obj\Debug\net8.0\backend.pdb
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\obj\Debug\net8.0\backend.genruntimeconfig.cache
+C:\Users\Chrisnawati.yordanin\source\repos\e-imc-omc\backend\obj\Debug\net8.0\ref\backend.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\appsettings.json
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\backend.staticwebassets.runtime.json
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\backend.exe
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\backend.deps.json
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\backend.runtimeconfig.json
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\backend.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\backend.pdb
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\obj\Debug\net8.0\backend.csproj.AssemblyReference.cache
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\obj\Debug\net8.0\backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\obj\Debug\net8.0\backend.AssemblyInfoInputs.cache
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\obj\Debug\net8.0\backend.AssemblyInfo.cs
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\obj\Debug\net8.0\backend.csproj.CoreCompileInputs.cache
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\obj\Debug\net8.0\backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\obj\Debug\net8.0\backend.RazorAssemblyInfo.cache
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\obj\Debug\net8.0\backend.RazorAssemblyInfo.cs
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\obj\Debug\net8.0\backend.sourcelink.json
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\obj\Debug\net8.0\staticwebassets\msbuild.backend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\obj\Debug\net8.0\staticwebassets\msbuild.build.backend.props
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.backend.props
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.backend.props
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\obj\Debug\net8.0\scopedcss\bundle\backend.styles.css
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\obj\Debug\net8.0\scopedcss\projectbundle\backend.bundle.scp.css
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\obj\Debug\net8.0\backend.csproj.CopyComplete
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\obj\Debug\net8.0\backend.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\obj\Debug\net8.0\refint\backend.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\obj\Debug\net8.0\backend.pdb
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\obj\Debug\net8.0\backend.genruntimeconfig.cache
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\obj\Debug\net8.0\ref\backend.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Chrisnawati.yordanin\source\repos\e batch tracking\e-imc-omc-new\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\appsettings.json
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\backend.staticwebassets.runtime.json
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\backend.exe
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\backend.deps.json
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\backend.runtimeconfig.json
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\backend.dll
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\backend.pdb
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\obj\Debug\net8.0\backend.csproj.AssemblyReference.cache
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\obj\Debug\net8.0\backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\obj\Debug\net8.0\backend.AssemblyInfoInputs.cache
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\obj\Debug\net8.0\backend.AssemblyInfo.cs
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\obj\Debug\net8.0\backend.csproj.CoreCompileInputs.cache
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\obj\Debug\net8.0\backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\obj\Debug\net8.0\backend.RazorAssemblyInfo.cache
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\obj\Debug\net8.0\backend.RazorAssemblyInfo.cs
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\obj\Debug\net8.0\backend.sourcelink.json
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\obj\Debug\net8.0\staticwebassets\msbuild.backend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\obj\Debug\net8.0\staticwebassets\msbuild.build.backend.props
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.backend.props
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.backend.props
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\obj\Debug\net8.0\scopedcss\bundle\backend.styles.css
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\obj\Debug\net8.0\scopedcss\projectbundle\backend.bundle.scp.css
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\obj\Debug\net8.0\backend.csproj.CopyComplete
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\obj\Debug\net8.0\backend.dll
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\obj\Debug\net8.0\refint\backend.dll
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\obj\Debug\net8.0\backend.pdb
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\obj\Debug\net8.0\backend.genruntimeconfig.cache
+C:\Users\Christian Matthew\source\repos\E-BATCH TRACKING\e-imc-omc-new\backend\obj\Debug\net8.0\ref\backend.dll
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\appsettings.Development.json
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\appsettings.json
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\backend.staticwebassets.runtime.json
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\backend.exe
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\backend.deps.json
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\backend.runtimeconfig.json
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\backend.dll
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\backend.pdb
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\Google.Protobuf.dll
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\MySql.Data.dll
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\ZstdSharp.dll
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\BATCHTRACKFE\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\BATCHTRACKFE\e-imc-omc-new\backend\obj\Debug\net8.0\backend.csproj.AssemblyReference.cache
+D:\BATCHTRACKFE\e-imc-omc-new\backend\obj\Debug\net8.0\backend.GeneratedMSBuildEditorConfig.editorconfig
+D:\BATCHTRACKFE\e-imc-omc-new\backend\obj\Debug\net8.0\backend.AssemblyInfoInputs.cache
+D:\BATCHTRACKFE\e-imc-omc-new\backend\obj\Debug\net8.0\backend.AssemblyInfo.cs
+D:\BATCHTRACKFE\e-imc-omc-new\backend\obj\Debug\net8.0\backend.csproj.CoreCompileInputs.cache
+D:\BATCHTRACKFE\e-imc-omc-new\backend\obj\Debug\net8.0\backend.MvcApplicationPartsAssemblyInfo.cache
+D:\BATCHTRACKFE\e-imc-omc-new\backend\obj\Debug\net8.0\backend.RazorAssemblyInfo.cache
+D:\BATCHTRACKFE\e-imc-omc-new\backend\obj\Debug\net8.0\backend.RazorAssemblyInfo.cs
+D:\BATCHTRACKFE\e-imc-omc-new\backend\obj\Debug\net8.0\backend.sourcelink.json
+D:\BATCHTRACKFE\e-imc-omc-new\backend\obj\Debug\net8.0\staticwebassets.build.json
+D:\BATCHTRACKFE\e-imc-omc-new\backend\obj\Debug\net8.0\staticwebassets.development.json
+D:\BATCHTRACKFE\e-imc-omc-new\backend\obj\Debug\net8.0\staticwebassets\msbuild.backend.Microsoft.AspNetCore.StaticWebAssets.props
+D:\BATCHTRACKFE\e-imc-omc-new\backend\obj\Debug\net8.0\staticwebassets\msbuild.build.backend.props
+D:\BATCHTRACKFE\e-imc-omc-new\backend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.backend.props
+D:\BATCHTRACKFE\e-imc-omc-new\backend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.backend.props
+D:\BATCHTRACKFE\e-imc-omc-new\backend\obj\Debug\net8.0\staticwebassets.pack.json
+D:\BATCHTRACKFE\e-imc-omc-new\backend\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\BATCHTRACKFE\e-imc-omc-new\backend\obj\Debug\net8.0\scopedcss\bundle\backend.styles.css
+D:\BATCHTRACKFE\e-imc-omc-new\backend\obj\Debug\net8.0\scopedcss\projectbundle\backend.bundle.scp.css
+D:\BATCHTRACKFE\e-imc-omc-new\backend\obj\Debug\net8.0\backend.csproj.Up2Date
+D:\BATCHTRACKFE\e-imc-omc-new\backend\obj\Debug\net8.0\backend.dll
+D:\BATCHTRACKFE\e-imc-omc-new\backend\obj\Debug\net8.0\refint\backend.dll
+D:\BATCHTRACKFE\e-imc-omc-new\backend\obj\Debug\net8.0\backend.pdb
+D:\BATCHTRACKFE\e-imc-omc-new\backend\obj\Debug\net8.0\backend.genruntimeconfig.cache
+D:\BATCHTRACKFE\e-imc-omc-new\backend\obj\Debug\net8.0\ref\backend.dll
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\appsettings.json
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\backend.staticwebassets.runtime.json
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\backend.exe
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\backend.deps.json
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\backend.runtimeconfig.json
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\backend.dll
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\backend.pdb
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\obj\Debug\net8.0\backend.csproj.AssemblyReference.cache
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\obj\Debug\net8.0\backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\obj\Debug\net8.0\backend.AssemblyInfoInputs.cache
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\obj\Debug\net8.0\backend.AssemblyInfo.cs
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\obj\Debug\net8.0\backend.csproj.CoreCompileInputs.cache
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\obj\Debug\net8.0\backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\obj\Debug\net8.0\backend.RazorAssemblyInfo.cache
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\obj\Debug\net8.0\backend.RazorAssemblyInfo.cs
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\obj\Debug\net8.0\backend.sourcelink.json
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\obj\Debug\net8.0\staticwebassets\msbuild.backend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\obj\Debug\net8.0\staticwebassets\msbuild.build.backend.props
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.backend.props
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.backend.props
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\obj\Debug\net8.0\scopedcss\bundle\backend.styles.css
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\obj\Debug\net8.0\scopedcss\projectbundle\backend.bundle.scp.css
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\obj\Debug\net8.0\backend.csproj.Up2Date
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\obj\Debug\net8.0\backend.dll
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\obj\Debug\net8.0\refint\backend.dll
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\obj\Debug\net8.0\backend.pdb
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\obj\Debug\net8.0\backend.genruntimeconfig.cache
+C:\Users\dimas\OneDrive\Documents\GitHub\e-imc-omc-new\backend\obj\Debug\net8.0\ref\backend.dll
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\appsettings.Development.json
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\appsettings.json
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\backend.staticwebassets.runtime.json
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\backend.exe
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\backend.deps.json
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\backend.runtimeconfig.json
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\backend.dll
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\backend.pdb
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\Google.Protobuf.dll
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\MySql.Data.dll
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\ZstdSharp.dll
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\obj\Debug\net8.0\backend.csproj.AssemblyReference.cache
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\obj\Debug\net8.0\backend.GeneratedMSBuildEditorConfig.editorconfig
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\obj\Debug\net8.0\backend.AssemblyInfoInputs.cache
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\obj\Debug\net8.0\backend.AssemblyInfo.cs
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\obj\Debug\net8.0\backend.csproj.CoreCompileInputs.cache
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\obj\Debug\net8.0\backend.MvcApplicationPartsAssemblyInfo.cache
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\obj\Debug\net8.0\backend.RazorAssemblyInfo.cache
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\obj\Debug\net8.0\backend.RazorAssemblyInfo.cs
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\obj\Debug\net8.0\staticwebassets.build.json
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\obj\Debug\net8.0\staticwebassets.development.json
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\obj\Debug\net8.0\staticwebassets\msbuild.backend.Microsoft.AspNetCore.StaticWebAssets.props
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\obj\Debug\net8.0\staticwebassets\msbuild.build.backend.props
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.backend.props
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.backend.props
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\obj\Debug\net8.0\staticwebassets.pack.json
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\obj\Debug\net8.0\scopedcss\bundle\backend.styles.css
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\obj\Debug\net8.0\scopedcss\projectbundle\backend.bundle.scp.css
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\obj\Debug\net8.0\backend.csproj.Up2Date
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\obj\Debug\net8.0\backend.dll
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\obj\Debug\net8.0\refint\backend.dll
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\obj\Debug\net8.0\backend.pdb
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\obj\Debug\net8.0\backend.genruntimeconfig.cache
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\obj\Debug\net8.0\ref\backend.dll
+D:\BATCHTRACKFE\e-imc-omc-new-backend\backend\obj\Debug\net8.0\backend.sourcelink.json

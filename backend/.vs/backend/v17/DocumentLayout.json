@@ -1,0 +1,188 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BATCHTRACKFE\\e-imc-omc-new-backend\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8522599A-AA3E-45F7-950A-2C8FF675BC0B}|backend.csproj|d:\\batchtrackfe\\e-imc-omc-new-backend\\backend\\controllers\\workordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8522599A-AA3E-45F7-950A-2C8FF675BC0B}|backend.csproj|solutionrelative:controllers\\workordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8522599A-AA3E-45F7-950A-2C8FF675BC0B}|backend.csproj|d:\\batchtrackfe\\e-imc-omc-new-backend\\backend\\models\\workorderdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8522599A-AA3E-45F7-950A-2C8FF675BC0B}|backend.csproj|solutionrelative:models\\workorderdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8522599A-AA3E-45F7-950A-2C8FF675BC0B}|backend.csproj|d:\\batchtrackfe\\e-imc-omc-new-backend\\backend\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8522599A-AA3E-45F7-950A-2C8FF675BC0B}|backend.csproj|solutionrelative:services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8522599A-AA3E-45F7-950A-2C8FF675BC0B}|backend.csproj|d:\\batchtrackfe\\e-imc-omc-new-backend\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8522599A-AA3E-45F7-950A-2C8FF675BC0B}|backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8522599A-AA3E-45F7-950A-2C8FF675BC0B}|backend.csproj|d:\\batchtrackfe\\e-imc-omc-new-backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8522599A-AA3E-45F7-950A-2C8FF675BC0B}|backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8522599A-AA3E-45F7-950A-2C8FF675BC0B}|backend.csproj|d:\\batchtrackfe\\e-imc-omc-new-backend\\backend\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8522599A-AA3E-45F7-950A-2C8FF675BC0B}|backend.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8522599A-AA3E-45F7-950A-2C8FF675BC0B}|backend.csproj|d:\\batchtrackfe\\e-imc-omc-new-backend\\backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8522599A-AA3E-45F7-950A-2C8FF675BC0B}|backend.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8522599A-AA3E-45F7-950A-2C8FF675BC0B}|backend.csproj|d:\\batchtrackfe\\e-imc-omc-new-backend\\backend\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8522599A-AA3E-45F7-950A-2C8FF675BC0B}|backend.csproj|solutionrelative:services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8522599A-AA3E-45F7-950A-2C8FF675BC0B}|backend.csproj|d:\\batchtrackfe\\e-imc-omc-new-backend\\backend\\services\\resettokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8522599A-AA3E-45F7-950A-2C8FF675BC0B}|backend.csproj|solutionrelative:services\\resettokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 435,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 185,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\BATCHTRACKFE\\e-imc-omc-new-backend\\backend\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\BATCHTRACKFE\\e-imc-omc-new-backend\\backend\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAcwB8AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T04:20:56.119Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WorkOrderData.cs",
+              "DocumentMoniker": "D:\\BATCHTRACKFE\\e-imc-omc-new-backend\\backend\\Models\\WorkOrderData.cs",
+              "RelativeDocumentMoniker": "Models\\WorkOrderData.cs",
+              "ToolTip": "D:\\BATCHTRACKFE\\e-imc-omc-new-backend\\backend\\Models\\WorkOrderData.cs",
+              "RelativeToolTip": "Models\\WorkOrderData.cs",
+              "ViewState": "AQIAAJMAAAAAAAAAAAAIwGgAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T02:17:15.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\BATCHTRACKFE\\e-imc-omc-new-backend\\backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\BATCHTRACKFE\\e-imc-omc-new-backend\\backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T04:20:56.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WorkOrderController.cs",
+              "DocumentMoniker": "D:\\BATCHTRACKFE\\e-imc-omc-new-backend\\backend\\Controllers\\WorkOrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WorkOrderController.cs",
+              "ToolTip": "D:\\BATCHTRACKFE\\e-imc-omc-new-backend\\backend\\Controllers\\WorkOrderController.cs",
+              "RelativeToolTip": "Controllers\\WorkOrderController.cs",
+              "ViewState": "AQIAANoEAAAAAAAAAAAowHsEAAAsAQAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T04:20:56.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\BATCHTRACKFE\\e-imc-omc-new-backend\\backend\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "D:\\BATCHTRACKFE\\e-imc-omc-new-backend\\backend\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AQIAAK8AAAAAAAAAAAAAwAgBAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T04:20:56.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\BATCHTRACKFE\\e-imc-omc-new-backend\\backend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\BATCHTRACKFE\\e-imc-omc-new-backend\\backend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-22T04:20:56.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JWTService.cs",
+              "DocumentMoniker": "D:\\BATCHTRACKFE\\e-imc-omc-new-backend\\backend\\Services\\JWTService.cs",
+              "RelativeDocumentMoniker": "Services\\JWTService.cs",
+              "ToolTip": "D:\\BATCHTRACKFE\\e-imc-omc-new-backend\\backend\\Services\\JWTService.cs",
+              "RelativeToolTip": "Services\\JWTService.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAkwE0AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T04:20:56.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\BATCHTRACKFE\\e-imc-omc-new-backend\\backend\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "Services\\EmailService.cs",
+              "ToolTip": "D:\\BATCHTRACKFE\\e-imc-omc-new-backend\\backend\\Services\\EmailService.cs",
+              "RelativeToolTip": "Services\\EmailService.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAgwDQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T04:20:56.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ResetTokenService.cs",
+              "DocumentMoniker": "D:\\BATCHTRACKFE\\e-imc-omc-new-backend\\backend\\Services\\ResetTokenService.cs",
+              "RelativeDocumentMoniker": "Services\\ResetTokenService.cs",
+              "ToolTip": "D:\\BATCHTRACKFE\\e-imc-omc-new-backend\\backend\\Services\\ResetTokenService.cs",
+              "RelativeToolTip": "Services\\ResetTokenService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T04:20:56.15Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
