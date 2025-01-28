@@ -11,7 +11,7 @@ import authIsLoggedIn from "../../auth/authIsLoggedIn";
 import { InformationCircleIcon, LogoutIcon, MenuIcon, SearchIcon, XIcon } from "@heroicons/react/outline";
 
 // Import Component
-import BatchTracker from "../modal/BatchTracker";
+import BatchTracker from "../modal/ModalBatchInformation";
 
 const Navbar = ({ toggleNavbar }) => {
   // Show Profile
@@ -42,7 +42,7 @@ const Navbar = ({ toggleNavbar }) => {
   };
 
   useEffect(() => {
-    fetch("http://localhost:5051/api/dashboard")
+    fetch(`${process.env.NEXT_PUBLIC_API_URL}/dashboard`)
       .then((res) => {
         if (!res.ok) {
           throw new Error("Network response was not ok");
@@ -51,6 +51,7 @@ const Navbar = ({ toggleNavbar }) => {
       })
       .then((data) => {
         setData(data);
+        // console.log(data);
       })
       .catch((error) => {
         console.error("Error fetching data:", error.message);
@@ -125,7 +126,7 @@ const Navbar = ({ toggleNavbar }) => {
   const HandleLogout = async () => {
     try {
       const token = localStorage.getItem("token");
-      const response = await fetch("http://localhost:5051/api/logout", {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/logout`, {
         method: "POST",
         headers: {
           Authorization: `Bearer ${token}`,
@@ -135,6 +136,7 @@ const Navbar = ({ toggleNavbar }) => {
 
       if (response.ok) {
         localStorage.removeItem("token");
+        localStorage.removeItem("loggedInUser");
         // Lakukan navigasi atau tindakan lain setelah logout berhasil
         router.push("/");
       } else {
@@ -147,7 +149,7 @@ const Navbar = ({ toggleNavbar }) => {
 
   return (
     <>
-      <nav className="navbar w-full bg-white lg:pl-[95px] sticky top-0 bg-opacity-20 backdrop-blur flex justify-center z-10">
+      <nav className="navbar w-full bg-white lg:pl-[90px] sticky top-0 bg-opacity-20 backdrop-blur flex justify-center z-10">
         <nav className="border bg-white w-full mt-2 px-5 py-2 flex items-center rounded-xl shadow-md">
           <div className="w-full z-50" ref={searchRef}>
             {showSearch ? (
@@ -263,7 +265,7 @@ const Navbar = ({ toggleNavbar }) => {
                   <div className="dropdown dropdown-bottom dropdown-end">
                     <div tabIndex={0} role="button">
                       <Image src="/1.png" alt="user" width={40} height={40} className="ms-auto rounded-3xl" />
-                      <span className="absolute -bottom-0.5 right-0.5 rounded-full h-3 w-3 bg-green-500 border border-2 border-white"></span>
+                      <span className="absolute -bottom-0.5 right-0.5 rounded-full h-3 w-3 bg-green-500 border-2 border-white"></span>
                     </div>
                     <ul tabIndex={0} className="menu dropdown-content z-[1] p-2 shadow-[0_0_5px_0_rgba(0,0,0,0.3)] bg-base-100 rounded-lg w-max mt-2">
                       {/* Profile User */}
@@ -271,7 +273,7 @@ const Navbar = ({ toggleNavbar }) => {
                         <div>
                           <div className="relative">
                             <Image src="/1.png" alt="user" width={40} height={40} className="rounded-3xl mr-2" />
-                            <span className="absolute -bottom-0.5 right-2 rounded-full h-3 w-3 bg-green-500 border border-2 border-white"></span>
+                            <span className="absolute -bottom-0.5 right-2 rounded-full h-3 w-3 bg-green-500 border-2 border-white"></span>
                           </div>
                           <div>
                             <p className="font-semibold capitalize">{loggedInUser.name}</p>

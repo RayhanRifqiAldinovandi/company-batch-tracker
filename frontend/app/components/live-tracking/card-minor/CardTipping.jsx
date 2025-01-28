@@ -4,19 +4,20 @@ import { useContext } from "react";
 import { LiveTrackingContext } from "@/app/context/liveTrackingContext";
 
 // Import Component
-import BatchTracker from "../../modal/BatchTracker";
+import ModalBatchInformation from "../../modal/ModalBatchInformation";
 
 // Import Icon
 import { InformationCircleIcon, PaperAirplaneIcon } from "@heroicons/react/outline";
+import { HiArrowUturnLeft } from "react-icons/hi2";
 
 const CardTipping = () => {
-  const { dataMinor, department, userType, totalDataTippingMinor, isBatchTrackerOpen, setIsBatchTrackerOpen, selectedBatch, handleIconClick, handleSendButtonClick } = useContext(LiveTrackingContext);
+  const { dataMinor, userType, totalDataTippingMinor, isBatchTrackerOpen, setIsBatchTrackerOpen, selectedBatch, handleIconClick, handleReverseWoClick, handleSendButtonClick } = useContext(LiveTrackingContext);
   return (
     <>
-      <div className="card border w-full min-w-[300px] rounded-xl shadow-md">
+      <div className="card bg-white border w-full min-w-[300px] rounded-xl shadow-md">
         <div className="px-4 h-[90px] flex flex-col justify-center">
           <div className="flex justify-between">
-            <p className="text-xs uppercase">today's process</p>
+            <p className="text-xs uppercase">in process</p>
             <p className="text-xs uppercase">total</p>
           </div>
           <div className="flex items-center justify-between mt-2">
@@ -37,13 +38,20 @@ const CardTipping = () => {
                   <span className="bg-[#C5DFF8] mr-2 p-1 cursor-pointer rounded-md" onClick={() => handleIconClick(item)}>
                     <InformationCircleIcon className="w-6 h-6 text-[#3559E0] hover:text-[#8CABFF] transition duration-300" />
                   </span>
-                  <p className="uppercase">{item.batchNumber}</p>
+                  <p className="uppercase">
+                    {item.batchNumber} <span className="text-gray-500">-</span> {item.itemCode}
+                  </p>
                 </div>
                 <div>
-                  {(department === "produksi" || userType === "super admin") && (
-                    <button className="bg-[#3559E0] hover:bg-[#8CABFF] p-1.5 rounded-3xl transition duration-300" onClick={() => handleSendButtonClick(item)}>
-                      <PaperAirplaneIcon className="w-5 h-5 text-white rotate-90" />
-                    </button>
+                  {(userType === "super admin" || userType === "admin warehouse" || userType === "operator timbang") && (
+                    <>
+                      <button className="bg-[#FF8F00] hover:bg-[#FFBF78] mr-1 p-1.5 rounded-3xl transition duration-300">
+                        <HiArrowUturnLeft className="w-5 h-5 text-white" onClick={() => handleReverseWoClick(item)} />
+                      </button>
+                      <button className="bg-[#3559E0] hover:bg-[#8CABFF] p-1.5 rounded-3xl transition duration-300" onClick={() => handleSendButtonClick(item)}>
+                        <PaperAirplaneIcon className="w-5 h-5 text-white rotate-90" />
+                      </button>
+                    </>
                   )}
                 </div>
               </div>
@@ -53,7 +61,7 @@ const CardTipping = () => {
       </div>
 
       {/* BatchTracker */}
-      {isBatchTrackerOpen && <BatchTracker setIsBatchTrackerOpen={setIsBatchTrackerOpen} batchData={selectedBatch} />}
+      {isBatchTrackerOpen && <ModalBatchInformation setIsBatchTrackerOpen={setIsBatchTrackerOpen} batchData={selectedBatch} />}
     </>
   );
 };

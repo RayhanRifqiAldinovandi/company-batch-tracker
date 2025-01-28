@@ -4,7 +4,7 @@ Berfungsi untuk halaman login
 
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
@@ -24,26 +24,24 @@ const page = () => {
 
   const [loggedInUser, setLoggedInUser] = useState("");
 
-  // useEffect(() => {
-  //   // Cek apakah ada pengguna yang sudah login saat komponen dimuat
-  //   const loggedInUserData = localStorage.getItem("loggedInUser");
-  //   if (loggedInUserData) {
-  //     const parsedData = JSON.parse(loggedInUserData);
-  //     console.log(parsedData); // Menampilkan informasi pengguna yang sudah login
-  //     setLoggedInUser(parsedData);
-  //   }
-  // }, []);
+  useEffect(() => {
+    // Cek apakah ada pengguna yang sudah login saat komponen dimuat
+    const loggedInUserData = localStorage.getItem("loggedInUser");
+    if (loggedInUserData) {
+      const parsedData = JSON.parse(loggedInUserData);
+      // console.log(parsedData); // Menampilkan informasi pengguna yang sudah login
+      setLoggedInUser(parsedData);
+    }
+  }, []);
 
   // Fungsi untuk login
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      // Menyimpan token login dan mengirimkan request login ke backend
-      const token = localStorage.getItem("token");
       const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/login`, {
         method: "POST",
         headers: {
-          Authorization: `Bearer ${token}`,
+          // Authorization: `Bearer ${token}`,
           "Content-Type": "application/json",
         },
         body: JSON.stringify({ username, password }),
@@ -58,7 +56,7 @@ const page = () => {
         setLoggedInUser(data);
 
         // Menampilkan alert login sukses
-        toast.success("Login successful!", {
+        toast.success("Login sukses!", {
           position: "top-right",
           autoClose: 3000,
           hideProgressBar: true,
@@ -71,17 +69,17 @@ const page = () => {
           transition: Bounce,
         });
 
-        // Setelah 1 detik redirect ke halaman dashboard
+        // Setelah 1 detik redirect ke halaman home
         setTimeout(() => {
-          router.push("/dashboard");
+          router.push("/home");
         }, 1000);
 
         // Jika username dan password kosong menampilkan error
       } else if (username === "" || password === "") {
-        setError("Username or password cannot null");
+        setError("Username atau password tidak boleh kosong");
       } else {
         // Failed login
-        setError("Invalid username or password");
+        setError("username atau password salah");
       }
     } catch (error) {
       // Error message
@@ -153,7 +151,6 @@ const page = () => {
               Login
             </button>
           </form>
-
           {/* End Form Login */}
 
           {/* Menampilkan error */}

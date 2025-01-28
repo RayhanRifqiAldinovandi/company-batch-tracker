@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dimas\\OneDrive\\Documents\\GitHub\\e-imc-omc-new\\backend\\backend.csproj": {}
+    "D:\\BATCHTRACKFE\\e-imc-omc-new\\backend\\backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dimas\\OneDrive\\Documents\\GitHub\\e-imc-omc-new\\backend\\backend.csproj": {
+    "D:\\BATCHTRACKFE\\e-imc-omc-new\\backend\\backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dimas\\OneDrive\\Documents\\GitHub\\e-imc-omc-new\\backend\\backend.csproj",
+        "projectUniqueName": "D:\\BATCHTRACKFE\\e-imc-omc-new\\backend\\backend.csproj",
         "projectName": "backend",
-        "projectPath": "C:\\Users\\dimas\\OneDrive\\Documents\\GitHub\\e-imc-omc-new\\backend\\backend.csproj",
-        "packagesPath": "C:\\Users\\dimas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dimas\\OneDrive\\Documents\\GitHub\\e-imc-omc-new\\backend\\obj\\",
+        "projectPath": "D:\\BATCHTRACKFE\\e-imc-omc-new\\backend\\backend.csproj",
+        "packagesPath": "C:\\Users\\IDEAPAD\\.nuget\\packages\\",
+        "outputPath": "D:\\BATCHTRACKFE\\e-imc-omc-new\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dimas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\IDEAPAD\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -81,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

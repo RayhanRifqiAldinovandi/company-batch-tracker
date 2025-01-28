@@ -39,7 +39,7 @@ namespace backend.Controllers
 
 
         //REGISTER (MANAGE USER) ENDPOINT
-        [EnableCors("AllowAll")]
+        /*/*[EnableCors("AllowAll")]*/
         [HttpPost("register")]
         public IActionResult Register(User user)
         {
@@ -59,20 +59,20 @@ namespace backend.Controllers
                     connection.Open();
 
                     //check username availability
-                    var checkQuery = "SELECT COUNT(*) FROM login WHERE username = @username";
+                    var checkQuery = "SELECT COUNT(*) FROM user WHERE username = @username";
                     using (var checkCommand = new MySqlCommand(checkQuery, connection))
                     {
                         checkCommand.Parameters.AddWithValue("@username", user.username);
                         int ExistingUserCount = Convert.ToInt32(checkCommand.ExecuteScalar());
                         if (ExistingUserCount > 0)
                         {
-                            return Conflict("Username Already Exist");
+                            return Conflict("Username sudah ada");
                         }
                     }
 
                     //register new user
                     var hashedPassword = _passwordHashService.HashPassword(user.password);
-                    var query = "INSERT INTO login (username, password, email, name, department, userType) VALUES (@username, @password, @email, @name, @department, @userType)";
+                    var query = "INSERT INTO user (username, password, email, name, department, userType) VALUES (@username, @password, @email, @name, @department, @userType)";
                     using (var cmd = new MySqlCommand(query, connection))
                     {
                         cmd.Parameters.AddWithValue("@username", user.username);
@@ -87,11 +87,11 @@ namespace backend.Controllers
                             int rowsAffected = cmd.ExecuteNonQuery();
                             if (rowsAffected > 0)
                             {
-                                return Ok("Registration Successful");
+                                return Ok("Registrasi Sukses");
                             }
                             else
                             {
-                                return BadRequest("Registration Failed");
+                                return BadRequest("Registrasi Gagal");
                             }
                         }
                         catch (Exception ex)
@@ -143,14 +143,14 @@ namespace backend.Controllers
 
 
         // LOGIN ENDPOINT
-        [EnableCors("AllowAll")]
+        /*[EnableCors("WithOrigins")]*/
         [HttpPost("login")]
         public async Task<IActionResult> Login(UserLogin user)
         {
             using (var connection = GetConnection())
             {
                 connection.Open();
-                var query = "SELECT password, usertype, department, name FROM login WHERE username = @username";
+                var query = "SELECT password, usertype, department, name FROM user WHERE username = @username";
                 using (var cmd = new MySqlCommand(query, connection))
                 {
                     cmd.Parameters.AddWithValue("@username", user.username);
@@ -185,12 +185,12 @@ namespace backend.Controllers
                             }
                             else
                             {
-                                return BadRequest("Invalid Password");
+                                return BadRequest("Password Salah");
                             }
                         }
                         else
                         {
-                            return BadRequest("Invalid Username");
+                            return BadRequest("Username Salah");
                         }
                     }
 
@@ -206,11 +206,12 @@ namespace backend.Controllers
             using (var conn = GetConnection())
             {
                 conn.Open();
-                var audit = "INSERT INTO audit_trail (user,action,timestamp,request_data) VALUES (@username, 'Login',NOW(),'User Data')";
+                var audit = "INSERT INTO audit_trail (user,action,timestamp,request_data) VALUES (@username, 'Login',NOW(),@RequestData)";
 
                 using (var insertCmd = new MySqlCommand(audit, conn))
                 {
                     insertCmd.Parameters.AddWithValue("@username", username);
+                    insertCmd.Parameters.AddWithValue("@RequestData", $"{username} Login");
                     insertCmd.ExecuteNonQuery();
                 }
             }
@@ -219,7 +220,7 @@ namespace backend.Controllers
 
 
         // FORGOT-PASSWORD ENDPOINT
-        [EnableCors("AllowAll")]
+        /*/*[EnableCors("AllowAll")]*/
         [HttpPost("forgot-password")]
         public IActionResult ForgotPassword(UserForgotPass user)
         {
@@ -230,14 +231,14 @@ namespace backend.Controllers
                     connection.Open();
 
                     // Check if the email exists in the database
-                    var checkQuery = "SELECT COUNT(*) FROM login WHERE email = @email";
+                    var checkQuery = "SELECT COUNT(*) FROM user WHERE email = @email";
                     using (var cmd = new MySqlCommand(checkQuery, connection))
                     {
                         cmd.Parameters.AddWithValue("@email", user.email);
                         int existingEmailCount = Convert.ToInt32(cmd.ExecuteScalar());
                         if (existingEmailCount == 0)
                         {
-                            return NotFound("Email not found");
+                            return NotFound("Email tidak ditemukan");
                         }
                     }
 
@@ -245,7 +246,7 @@ namespace backend.Controllers
                     string resetToken = _resetTokenService.GenerateResetToken(user.email);
 
                     // Store the reset token in the database
-                    var updateQuery = "UPDATE login SET resetToken = @resetToken WHERE email = @email";
+                    var updateQuery = "UPDATE user SET resetToken = @resetToken WHERE email = @email";
                     using (var cmd = new MySqlCommand(updateQuery, connection))
                     {
                         cmd.Parameters.AddWithValue("@resetToken", resetToken);
@@ -253,7 +254,7 @@ namespace backend.Controllers
                         int rowsAffected = cmd.ExecuteNonQuery();
                         if (rowsAffected == 0)
                         {
-                            return StatusCode(500, "Failed to update reset token");
+                            return StatusCode(500, "Gagal Mengupdate token reset");
                         }
                     }
 
@@ -261,21 +262,21 @@ namespace backend.Controllers
                     bool emailSent = _emailService.SendResetPasswordEmail(user.email, resetToken, _emailService.Get_configuration());
                     if (!emailSent)
                     {
-                        return StatusCode(500, "Failed to send reset password email. Please try again later.");
+                        return StatusCode(500, "Gagal mengirim email reset password. Mohon coba lagi nanti");
                     }
 
-                    return Ok("Email sent successfully");
+                    return Ok("Email sukses dikirim");
                 }
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
-                return StatusCode(500, $"An error occurred while processing the request: {ex.Message}");
+                return StatusCode(500, $"Sebuah error terjadi saat melakukan request {ex.Message}");
             }
         }
 
 
-        [EnableCors("AllowAll")]
+        /*[EnableCors("AllowAll")]*/
         [HttpPost("reset-password")]
         public IActionResult ResetPassword(UserResetPass user)
         {
@@ -286,7 +287,7 @@ namespace backend.Controllers
                 try
                 {
                     connection.Open();
-                    var checkUsernameQuery = "SELECT COUNT(*) FROM login WHERE username = @username";
+                    var checkUsernameQuery = "SELECT COUNT(*) FROM user WHERE username = @username";
                     using (var cmd = new MySqlCommand(checkUsernameQuery, connection))
                     {
                         cmd.Parameters.AddWithValue("@Username", user.username);
@@ -298,7 +299,7 @@ namespace backend.Controllers
                         }
                     }
 
-                    var getTokenQuery = "SELECT resetToken FROM login WHERE username = @Username";
+                    var getTokenQuery = "SELECT resetToken FROM user WHERE username = @Username";
                     string? storedResetToken = null;
                     using (var cmd = new MySqlCommand(getTokenQuery, connection))
                     {
@@ -313,7 +314,7 @@ namespace backend.Controllers
                     }
 
                     var hashedPassword = _passwordHashService.HashPassword(user.newPassword);
-                    var updateQuery = "UPDATE login SET password = @Password WHERE username = @Username";
+                    var updateQuery = "UPDATE user SET password = @Password WHERE username = @Username";
                     using (var cmd = new MySqlCommand(updateQuery, connection))
                     {
                         cmd.Parameters.AddWithValue("@Password", hashedPassword);
@@ -321,18 +322,18 @@ namespace backend.Controllers
                         cmd.ExecuteNonQuery();
                     }
 
-                    var clearTokenQuery = "UPDATE login SET resetToken = NULL WHERE username = @Username";
+                    var clearTokenQuery = "UPDATE user SET resetToken = NULL WHERE username = @Username";
                     using (var cmd = new MySqlCommand(clearTokenQuery, connection))
                     {
                         cmd.Parameters.AddWithValue("@Username", user.username);
                         cmd.ExecuteNonQuery();
                     }
                     /*uploadResetPassword(user.username);*/
-                    return Ok("Password reset successfully");
+                    return Ok("Password sukses direset");
                 }
                 catch (Exception ex)
                 {
-                    return StatusCode(500, $"An error occurred while updating the password: {ex.Message}");
+                    return StatusCode(500, $"Sebuah error terjadi saat mengupdate password: {ex.Message}");
                 }
             }
         }
@@ -363,7 +364,7 @@ namespace backend.Controllers
 
 
 
-[EnableCors("AllowAll")]
+/*[EnableCors("AllowAll")]*/
 [HttpPost("logout")]
 
 public IActionResult Logout() 
@@ -379,7 +380,7 @@ public IActionResult Logout()
 
     uploadlogout(token);
        
-    return Ok("Logout Successfully");
+    return Ok("Logout sukses");
 }
 
 //Helper code to upload logout activity to audit trail
@@ -396,7 +397,7 @@ public void uploadlogout(string token)
         using (var connection = GetConnection())
         {
             connection.Open();
-            var query = $"INSERT INTO audit_trail (user,action,timestamp,request_data) VALUES (@username,'Logout',NOW(),'User {username} logout')";
+            var query = $"INSERT INTO audit_trail (user,action,timestamp,request_data) VALUES (@username,'Logout',NOW(),'{username} logout')";
             using (var cmd = new MySqlCommand(query, connection))
             {
                 cmd.Parameters.AddWithValue("@username",username);

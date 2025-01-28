@@ -1,0 +1,20 @@
+// Improt dari react toastify
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
+// Metadata untuk menampilkan judul halaman
+export const metadata = {
+  title: "Forgot Password",
+};
+
+export default function ForgotPasswordLayout({ children }) {
+  return (
+    <>
+      {/* Toast */}
+      <ToastContainer />
+
+      {/* Main */}
+      <main>{children}</main>
+    </>
+  );
+}

@@ -1,44 +1,48 @@
+using backend.Middleware;
 using backend.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-    // Add services to the container.
-    builder.Services.AddControllers();
-    builder.Services.AddScoped<PasswordHashService>();
-    builder.Services.AddScoped<EmailService>();
-    builder.Services.AddScoped<JwtService>();
-    builder.Services.AddScoped<ResetTokenService>();
+// Add services to the container.
+builder.Services.AddControllers();
+builder.Services.AddScoped<PasswordHashService>();
+builder.Services.AddScoped<EmailService>();
+builder.Services.AddScoped<JwtService>();
+builder.Services.AddScoped<ResetTokenService>();
 
+// Add configuration from appsettings.json
+builder.Configuration.AddJsonFile("appsettings.json");
 
-    // Add configuration from appsettings.json
-    builder.Configuration.AddJsonFile("appsettings.json");
+// Enable CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll",
+        policy => policy.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader());
+});
 
-    var app = builder.Build();
+var app = builder.Build();
 
-    // Enable CORS
-    app.UseCors(options =>
-    {
-        options.AllowAnyOrigin()
-               .AllowAnyMethod()
-               .AllowAnyHeader();
-    });
+// Configure the HTTP request pipeline.
+if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Home/Error");
+}
 
-    // Configure the HTTP request pipeline.
-    if (!app.Environment.IsDevelopment())
-    {
-        app.UseExceptionHandler("/Home/Error");
-    }
+app.UseHttpsRedirection();
+app.UseStaticFiles();
 
-    app.UseStaticFiles();
+app.UseRouting();
 
-    app.UseAuthentication();
+app.UseCors("AllowAll");
 
-    app.UseAuthorization();
+app.UseAuthentication();
+app.UseAuthorization();
 
-    app.UseRouting();
+// Optionally, if you have custom middleware
+// app.UseMiddleware<IpWhitelistMiddleware>();
 
-    app.UseCors(builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+app.MapControllers();
 
-    app.MapControllers();
-
-    app.Run();
+app.Run();

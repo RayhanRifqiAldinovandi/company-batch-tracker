@@ -1,0 +1,315 @@
+CREATE VIEW view_ruah AS
+SELECT pd.unique_number
+    , pd.product_type
+    , pd.wo_number
+    , pd.batch_status
+    , pd.batch_number
+    , pd.item_code
+    , pd.processing_department
+    , pd.sub_department
+    , pd.line_selection
+    , pd.step_1
+    , pd.step_1_sender
+    , pd.step_2
+    , pd.step_2_sender
+    , pd.step_3
+    , pd.step_3_sender
+    , pd.step_4
+    , pd.step_4_sender
+    , pd.step_5
+    , pd.step_5_sender
+    , pd.step_6
+    , pd.step_6_sender
+    , pd.completion_time
+    , 'production_data' AS table_origin
+FROM production_data pd
+WHERE pd.product_type = "ruah"
+UNION
+SELECT tbd.unique_number
+    , tbd.product_type
+    , tbd.wo_number
+    , tbd.batch_status
+    , tbd.batch_number
+    , tbd.item_code
+    , tbd.processing_department
+    , tbd.sub_department
+    , tbd.line_selection
+    , tbd.step_1
+    , tbd.step_1_sender
+    , tbd.step_2
+    , tbd.step_2_sender
+    , tbd.step_3
+    , tbd.step_3_sender
+    , tbd.step_4
+    , tbd.step_4_sender
+    , tbd.step_5
+    , tbd.step_5_sender
+    , tbd.step_6
+    , tbd.step_6_sender
+    , tbd.completion_time
+    , 'test_batch_data' AS table_origin
+FROM test_batch_data tbd
+WHERE tbd.product_type = "ruah"
+UNION
+SELECT wh.unique_number
+    , wh.product_type
+    , wh.wo_number
+    , wh.batch_status
+    , wh.batch_number
+    , wh.item_code
+    , wh.processing_department
+    , wh.sub_department
+    , wh.line_selection
+    , wh.step_1
+    , wh.step_1_sender
+    , wh.step_2
+    , wh.step_2_sender
+    , wh.step_3
+    , wh.step_3_sender
+    , wh.step_4
+    , wh.step_4_sender
+    , wh.step_5
+    , wh.step_5_sender
+    , wh.step_6
+    , wh.step_6_sender
+    , wh.completion_time
+    , 'test_batch_data' AS table_origin
+FROM warehouse_data wh
+WHERE wh.product_type = "ruah"
+UNION
+SELECT cbd.unique_number
+    , cbd.product_type
+    , cbd.wo_number
+    , cbd.batch_status
+    , cbd.batch_number
+    , cbd.item_code
+    , cbd.processing_department
+    , cbd.sub_department
+    , cbd.line_selection
+    , cbd.step_1
+    , cbd.step_1_sender
+    , cbd.step_2
+    , cbd.step_2_sender
+    , cbd.step_3
+    , cbd.step_3_sender
+    , cbd.step_4
+    , cbd.step_4_sender
+    , cbd.step_5
+    , cbd.step_5_sender
+    , cbd.step_6
+    , cbd.step_6_sender
+    , cbd.completion_time
+    , 'completed_batch_data' AS table_origin
+FROM completed_batch_data cbd
+WHERE cbd.product_type = "ruah";
+
+CREATE VIEW view_minor AS
+SELECT pd.unique_number
+    , pd.product_type
+    , pd.wo_number
+    , pd.batch_status
+    , pd.batch_number
+    , pd.item_code
+    , pd.processing_department
+    , pd.sub_department
+    , pd.line_selection
+    , pd.step_1
+    , pd.step_1_sender
+    , pd.step_2
+    , pd.step_2_sender
+    , pd.step_3
+    , pd.step_3_sender
+    , pd.step_4
+    , pd.step_4_sender
+    , pd.step_5
+    , pd.step_5_sender
+    , pd.step_6
+    , pd.step_6_sender
+    , pd.completion_time
+    , 'production_data' AS table_origin
+FROM production_data pd
+WHERE pd.product_type = "minor"
+UNION
+SELECT tbd.unique_number
+    , tbd.product_type
+    , tbd.wo_number
+    , tbd.batch_status
+    , tbd.batch_number
+    , tbd.item_code
+    , tbd.processing_department
+    , tbd.sub_department
+    , tbd.line_selection
+    , tbd.step_1
+    , tbd.step_1_sender
+    , tbd.step_2
+    , tbd.step_2_sender
+    , tbd.step_3
+    , tbd.step_3_sender
+    , tbd.step_4
+    , tbd.step_4_sender
+    , tbd.step_5
+    , tbd.step_5_sender
+    , tbd.step_6
+    , tbd.step_6_sender
+    , tbd.completion_time
+    , 'test_batch_data' AS table_origin
+FROM test_batch_data tbd
+WHERE tbd.product_type = "minor"
+UNION
+SELECT wh.unique_number
+    , wh.product_type
+    , wh.wo_number
+    , wh.batch_status
+    , wh.batch_number
+    , wh.item_code
+    , wh.processing_department
+    , wh.sub_department
+    , wh.line_selection
+    , wh.step_1
+    , wh.step_1_sender
+    , wh.step_2
+    , wh.step_2_sender
+    , wh.step_3
+    , wh.step_3_sender
+    , wh.step_4
+    , wh.step_4_sender
+    , wh.step_5
+    , wh.step_5_sender
+    , wh.step_6
+    , wh.step_6_sender
+    , wh.completion_time
+    , 'test_batch_data' AS table_origin
+FROM warehouse_data wh
+WHERE wh.product_type = "minor"
+UNION
+SELECT cbd.unique_number
+    , cbd.product_type
+    , cbd.wo_number
+    , cbd.batch_status
+    , cbd.batch_number
+    , cbd.item_code
+    , cbd.processing_department
+    , cbd.sub_department
+    , cbd.line_selection
+    , cbd.step_1
+    , cbd.step_1_sender
+    , cbd.step_2
+    , cbd.step_2_sender
+    , cbd.step_3
+    , cbd.step_3_sender
+    , cbd.step_4
+    , cbd.step_4_sender
+    , cbd.step_5
+    , cbd.step_5_sender
+    , cbd.step_6
+    , cbd.step_6_sender
+    , cbd.completion_time
+    , 'completed_batch_data' AS table_origin
+FROM completed_batch_data cbd
+WHERE cbd.product_type = "minor";
+
+CREATE VIEW view_kemas AS
+SELECT pd.unique_number
+    , pd.product_type
+    , pd.wo_number
+    , pd.batch_status
+    , pd.batch_number
+    , pd.item_code
+    , pd.processing_department
+    , pd.sub_department
+    , pd.line_selection
+    , pd.step_1
+    , pd.step_1_sender
+    , pd.step_2
+    , pd.step_2_sender
+    , pd.step_3
+    , pd.step_3_sender
+    , pd.step_4
+    , pd.step_4_sender
+    , pd.step_5
+    , pd.step_5_sender
+    , pd.step_6
+    , pd.step_6_sender
+    , pd.completion_time
+    , 'production_data' AS table_origin
+FROM production_data pd
+WHERE pd.product_type = "kemas"
+UNION
+SELECT tbd.unique_number
+    , tbd.product_type
+    , tbd.wo_number
+    , tbd.batch_status
+    , tbd.batch_number
+    , tbd.item_code
+    , tbd.processing_department
+    , tbd.sub_department
+    , tbd.line_selection
+    , tbd.step_1
+    , tbd.step_1_sender
+    , tbd.step_2
+    , tbd.step_2_sender
+    , tbd.step_3
+    , tbd.step_3_sender
+    , tbd.step_4
+    , tbd.step_4_sender
+    , tbd.step_5
+    , tbd.step_5_sender
+    , tbd.step_6
+    , tbd.step_6_sender
+    , tbd.completion_time
+    , 'test_batch_data' AS table_origin
+FROM test_batch_data tbd
+WHERE tbd.product_type = "kemas"
+UNION
+SELECT wh.unique_number
+    , wh.product_type
+    , wh.wo_number
+    , wh.batch_status
+    , wh.batch_number
+    , wh.item_code
+    , wh.processing_department
+    , wh.sub_department
+    , wh.line_selection
+    , wh.step_1
+    , wh.step_1_sender
+    , wh.step_2
+    , wh.step_2_sender
+    , wh.step_3
+    , wh.step_3_sender
+    , wh.step_4
+    , wh.step_4_sender
+    , wh.step_5
+    , wh.step_5_sender
+    , wh.step_6
+    , wh.step_6_sender
+    , wh.completion_time
+    , 'test_batch_data' AS table_origin
+FROM warehouse_data wh
+WHERE wh.product_type = "kemas"
+UNION
+SELECT cbd.unique_number
+    , cbd.product_type
+    , cbd.wo_number
+    , cbd.batch_status
+    , cbd.batch_number
+    , cbd.item_code
+    , cbd.processing_department
+    , cbd.sub_department
+    , cbd.line_selection
+    , cbd.step_1
+    , cbd.step_1_sender
+    , cbd.step_2
+    , cbd.step_2_sender
+    , cbd.step_3
+    , cbd.step_3_sender
+    , cbd.step_4
+    , cbd.step_4_sender
+    , cbd.step_5
+    , cbd.step_5_sender
+    , cbd.step_6
+    , cbd.step_6_sender
+    , cbd.completion_time
+    , 'completed_batch_data' AS table_origin
+FROM completed_batch_data cbd
+WHERE cbd.product_type = "kemas";
+

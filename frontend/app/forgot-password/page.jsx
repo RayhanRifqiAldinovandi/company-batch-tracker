@@ -27,7 +27,7 @@ const page = () => {
 
       if (response.ok) {
         // Menampilkan alert
-        toast.success("Password reset sent to your email", {
+        toast.success("Reset password dikirim ke email anda", {
           position: "top-right",
           autoClose: 5000,
           hideProgressBar: true,
@@ -42,7 +42,7 @@ const page = () => {
       } else {
         // Jika email tidak ada di database maka tampilkan alert email not found
         if (response.status === 404) {
-          toast.error("Email not found", {
+          toast.error("Email tidak ditemukan", {
             position: "top-right",
             autoClose: 3000,
             hideProgressBar: true,
@@ -56,7 +56,7 @@ const page = () => {
           });
         } else {
           // Failed to send password reset email
-          toast.error("Failed to send password reset", {
+          toast.error("Gagal mengirim reset password", {
             position: "top-right",
             autoClose: 3000,
             hideProgressBar: true,
@@ -72,7 +72,7 @@ const page = () => {
       }
     } catch (error) {
       // Error message
-      toast.error("Failed to connect to the server", {
+      toast.error("Gagal terhubung ke server", {
         position: "top-right",
         autoClose: 2000,
         hideProgressBar: true,

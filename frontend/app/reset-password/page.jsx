@@ -23,7 +23,17 @@ const page = () => {
 
     // Jika new password tidak sesuai dengan confirm password tampilkan message password do not match
     if (newPassword !== confirmNewPassword) {
-      setMessage("Passwords do not match");
+      toast.error("password tidak cocok", {
+        position: "top-right",
+        autoClose: 2000,
+        hideProgressBar: true,
+        closeButton: false,
+        closeOnClick: false,
+        pauseOnHover: false,
+        draggable: false,
+        progress: undefined,
+        theme: "light",
+      });
       return;
     }
 

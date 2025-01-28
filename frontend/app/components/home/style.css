@@ -1,0 +1,74 @@
+/* PPIC */
+
+.inner-border-hover-ppic {
+  border-bottom: 2px solid #d1f1ea; /* Menciptakan ilusi border dalam */
+}
+
+.inner-border-hover-ppic::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  height: 100%; /* Diubah untuk menutupi seluruh tinggi, namun kita akan menggunakan box-shadow */
+  box-shadow: inset 0 -3px 0 #9ad0c2; /* Menciptakan ilusi border dalam */
+  border-radius: 16px; /* Sesuaikan ini dengan border-radius card Anda */
+  opacity: 0; /* Sembunyikan secara default */
+  transition: opacity 0.3s ease-in-out; /* Transisi */
+}
+
+.inner-border-hover-ppic:hover::after {
+  opacity: 1; /* Tampilkan saat di-hover */
+}
+
+/* END PPIC */
+
+/* PRODUKSI */
+
+.inner-border-hover-produksi {
+  border-bottom: 2px solid #ede2ba; /* Menciptakan ilusi border dalam */
+}
+
+.inner-border-hover-produksi::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  height: 100%; /* Diubah untuk menutupi seluruh tinggi, namun kita akan menggunakan box-shadow */
+  box-shadow: inset 0 -3px 0 #ffc700; /* Menciptakan ilusi border dalam */
+  border-radius: 16px; /* Sesuaikan ini dengan border-radius card Anda */
+  opacity: 0; /* Sembunyikan secara default */
+  transition: opacity 0.3s ease-in-out; /* Transisi */
+}
+
+.inner-border-hover-produksi:hover::after {
+  opacity: 1; /* Tampilkan saat di-hover */
+}
+
+/* END PRODUKSI */
+
+/* WAREHOUSE */
+
+.inner-border-hover-warehouse {
+  border-bottom: 2px solid #b2b3d7; /* Menciptakan ilusi border dalam */
+}
+
+.inner-border-hover-warehouse::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  height: 100%; /* Diubah untuk menutupi seluruh tinggi, namun kita akan menggunakan box-shadow */
+  box-shadow: inset 0 -3px 0 #1d24ca; /* Menciptakan ilusi border dalam */
+  border-radius: 16px; /* Sesuaikan ini dengan border-radius card Anda */
+  opacity: 0; /* Sembunyikan secara default */
+  transition: opacity 0.3s ease-in-out; /* Transisi */
+}
+
+.inner-border-hover-warehouse:hover::after {
+  opacity: 1; /* Tampilkan saat di-hover */
+}
+
+/* END WAREHOUSE */
